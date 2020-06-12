@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+    
+    <ScrollView
+        android:id = "@+id/scrollAdd"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical">
+        
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation = "vertical">
+            
+        	<TextView
+            	android:layout_width = "match_parent"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/textMovieName"
+            	android:textSize = "@dimen/_18ssp"
+            	android:textColor = "@color/colorTextBlack"
+            	android:background = "@color/colorHeadMovie"
+            	android:gravity = "center"
+            	android:padding = "@dimen/_5sdp"/>
+        
+        	<EditText
+            	android:id = "@+id/editName"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:ems = "12"
+            	android:hint = "@string/hint"
+            	android:textSize = "@dimen/_18ssp"
+            	android:inputType = "text"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_5sdp"/>
+        	
+        	<TextView
+            	android:layout_width = "match_parent"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/textMovieDirector"
+            	android:textSize = "@dimen/_18ssp"
+            	android:textColor = "@color/colorTextBlack"
+            	android:background = "@color/colorHeadMovie"
+            	android:gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_25sdp"/>
+        
+        	<EditText
+            	android:id = "@+id/editDirector"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:ems = "12"
+            	android:hint = "@string/hint"
+            	android:textSize = "@dimen/_18ssp"
+            	android:inputType = "text"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_5sdp"/>
+        	
+        	<TextView
+            	android:layout_width = "match_parent"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/textMovieYear"
+            	android:textSize = "@dimen/_18ssp"
+            	android:textColor = "@color/colorTextBlack"
+            	android:background = "@color/colorHeadMovie"
+            	android:gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_25sdp"/>
+        
+        	<EditText
+            	android:id = "@+id/editYear"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:ems = "12"
+            	android:hint = "@string/hint"
+            	android:textSize = "@dimen/_18ssp"
+            	android:inputType = "number"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_5sdp"/>
+        	
+        	<TextView
+            	android:layout_width = "match_parent"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/textMovieInfo"
+            	android:textSize = "@dimen/_18ssp"
+            	android:textColor = "@color/colorTextBlack"
+            	android:background = "@color/colorHeadMovie"
+            	android:gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_25sdp"/>
+        
+        	<EditText
+            	android:id = "@+id/editInfo"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:ems = "12"
+            	android:hint = "@string/hint"
+            	android:textSize = "@dimen/_18ssp"
+            	android:inputType = "text"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_5sdp"/>
+        	
+        	<TextView
+            	android:layout_width = "match_parent"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/textMovieRating"
+            	android:textSize = "@dimen/_18ssp"
+            	android:textColor = "@color/colorTextBlack"
+            	android:background = "@color/colorHeadMovie"
+            	android:gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_25sdp"/>
+        
+        	<EditText
+            	android:id = "@+id/editRating"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:ems = "12"
+            	android:hint = "@string/hint"
+            	android:textSize = "@dimen/_18ssp"
+            	android:inputType = "numberDecimal"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_5sdp"
+            	android:layout_marginTop = "@dimen/_5sdp"/>
+        
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</LinearLayout>

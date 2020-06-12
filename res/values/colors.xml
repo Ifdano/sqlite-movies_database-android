@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <color name="colorMain"> #f1faee </color>
+    <color name="colorHeadMain"> #457b9d </color>
+    <color name="colorHeadAdd"> #2a9d8f </color>
+    <color name="colorHeadInfo"> #6d597a </color>
+    <color name="colorHeadUpdate"> #e63946 </color>
+    
+    <color name="colorTextWhite"> #ffffff </color>
+    <color name="colorTextBlack"> #000000 </color>
+    
+    <color name="colorButtonAdd"> #f4a261 </color>
+    <color name="colorButtonUpdate"> #90be6d </color>
+    <color name="colorButtonDelete"> #f94144 </color>
+    <color name="colorButtonBack"> #5e6472 </color>
+    <color name="colorButtonMain"> #05668d </color>
+    
+    <color name="colorHeadMovie"> #ced4da </color>
+    
+</resources>

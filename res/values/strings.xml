@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApplication_MoviesList</string>
+    
+    <string name="headMain"> СПИСОК ФИЛЬМОВ </string>
+    <string name="headAdd"> ДОБАВЛЕНИЕ ФИЛЬМА </string>
+    <string name="headInfo"> ПОДРОБНАЯ ИНФОРМАЦИЯ О ФИЛЬМЕ </string>
+    <string name="headUpdate"> ОБНОВЛЕНИЕ ДАННЫХ </string>
+    
+	<string name="buttonAdd"> ДОБАВИТЬ </string>
+	<string name="buttonBack"> НАЗАД </string>
+    <string name="buttonUpdate"> ОБНОВИТЬ </string>
+    <string name="buttonDelete"> УДАЛИТЬ </string>
+    <string name="buttonMain"> НА ГЛАВНУЮ </string>
+    
+    <string name="textMovieName"> НАЗВАНИЕ ФИЛЬМА </string>
+    <string name="textMovieDirector"> РЕЖИССЕР </string>
+    <string name="textMovieYear"> ГОД </string>
+    <string name="textMovieInfo"> ОПИСАНИЕ </string>
+    <string name="textMovieRating"> РЕЙТИНГ </string>
+    
+    <string name="hint"> ввод данных </string>
+    <string name="hintText"> no data </string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="E:/Programms/SDK/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Programms/SDK/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Programms/SDK/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Programms/SDK/extras/android/m2repository/com/android/support/sdp-android-v1/1.0.6/sdp-android-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Programms/SDK/extras/android/m2repository/com/android/support/ssp-android-v1/1.0.4/ssp-android-1.0.4.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
